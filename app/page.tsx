@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "./components/Header";
 import HomeSection from "./components/Home";
 import Service from "./components/Service";
+import Skils from "./components/Skils";
 export default function Home() {
   return (
     <div className="flex justify-center cursor-default " >
@@ -10,6 +11,8 @@ export default function Home() {
         <HomeSection />
         <hr></hr>
         <Service />
+        <hr></hr>
+        <Skils />
         <hr></hr>
 
       </main>

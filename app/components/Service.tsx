@@ -6,14 +6,14 @@ import "aos/dist/aos.css";
 import { IoIosLaptop } from 'react-icons/io';
 import { SiCssdesignawards } from 'react-icons/si';
 import { MdOutlinePhonelink } from 'react-icons/md';
-const Service = () => {
+export default function Service() {
     useEffect(() => {
         AOS.init({ duration: 1000 }); // مدة الحركة
     }, []);
     return (
         <section id='service' className='flex justify-center items-center  mt-20 mb-16  '>
             <div className=' flex flex-col  w-[80%] '>
-                <h1 data-aos="fade-up" className='text-3xl text-color3 font-serif font-semibold'>My SERVICE</h1>
+                <h1 data-aos="fade-up" className='text-4xl text-color3 font-serif font-semibold'>My SERVICE</h1>
 
                 <div className='flex flex-col xs:justify-center xs:items-center lg:justify-normal lg:items-stretch'>
 
@@ -47,4 +47,3 @@ const Service = () => {
     )
 }
 
-export default Service

@@ -5,7 +5,7 @@ import { HiMiniSlash } from 'react-icons/hi2';
 import { VscListSelection } from 'react-icons/vsc';
 
 
-const Header = () => {
+export default function Header() {
 
     const handleBtnList = () => {
         const list = document.querySelector('.list');
@@ -18,7 +18,6 @@ const Header = () => {
         <div>
             <div className=' w-[100%] bg-color1 text-color4 '>
                 <div className=' flex justify-center items-center animate-slideY  '>
-
 
                     <div className=' mt-5 cursor-pointer  md:w-[80%] xs:w-[90%]  font-semibold  drop-shadow-[0_4px_5px_rgba(255,255,255,0.6)]'>
 
@@ -35,7 +34,7 @@ const Header = () => {
                                 <span className='xl:flex xs:hidden gap-7 '>
                                     <a href='#home' className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)]  hover:shadow-color4'>HOME</a>
                                     <a href='#service' className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SERVICE</a>
-                                    <span className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SKILS</span>
+                                    <a href='#skils' className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SKILS</a>
                                     <span className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>PROJECTS</span>
                                     <span className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>CONTACT</span>
                                 </span>
@@ -62,4 +61,3 @@ const Header = () => {
     )
 }
 
-export default Header

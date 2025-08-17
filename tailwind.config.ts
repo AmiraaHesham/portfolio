@@ -23,14 +23,19 @@ const config: Config = {
           "0%": { transform: "translateX(-100%)" },
           "100%": { transform: "translateX(0)" },
         },
+        slideRight: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(0)" },
+        },
         slideY: {
           "0%": { transform: "translateY(-100%)" },
           "100%": { transform: "translateY(0)" },
         },
       },
       animation: {
-        slideX: "slideX 2s linear ",
-        slideY: "slideY 1s linear ", // اسم الحركة + المدة + التكرار
+        slideX: "slideX 1s linear ",
+        slideY: "slideY 1s linear ",
+        slideRight: "slideRight 1s linear ", // اسم الحركة + المدة + التكرار
       },
     },
   },
