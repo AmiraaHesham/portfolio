@@ -5,7 +5,7 @@ import React from 'react'
 const Home = () => {
 
     return (
-        <section id='home' className='flex flex-col justify-center items-center text-center mt-36 mb-16 '>
+        <section id='home' className=' flex flex-col justify-center items-center text-center mt-20 mb-16 '>
             <div className='flex animate-slideX flex-col justify-center items-center md:w-[80%] xs:w-[90%]'>
                 <h1 className=' lg:text-[150px] md:text-[120px] sm:text-[60px] xs:text-[60px] font-semibold bg-gradient-to-r from-[#d62828] via-color3 to-color2 bg-clip-text text-transparent'>FRONTEND DEVELOPER</h1>
                 <h2 className='text-2xl mt-4 font-serif text-color4'>Passion Creating Beautiful And Resbonsive Design</h2>

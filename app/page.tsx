@@ -1,13 +1,17 @@
 import Image from "next/image";
 import Header from "./components/Header";
 import HomeSection from "./components/Home";
+import Service from "./components/Service";
 export default function Home() {
   return (
     <div className="flex justify-center cursor-default " >
       <main className="">
         <Header />
         <HomeSection />
-        <hr className="text-xl"></hr>
+        <hr></hr>
+        <Service />
+        <hr></hr>
+
       </main>
     </div>
   );

@@ -1,18 +1,10 @@
 "use client";
 import React from 'react'
-import { Lobster } from "next/font/google";
 import { FaGreaterThan, FaLessThan } from "react-icons/fa";
 import { HiMiniSlash } from 'react-icons/hi2';
-import { BsListNested } from 'react-icons/bs';
-import { IoListOutline } from 'react-icons/io5';
-import { MdFilterList } from 'react-icons/md';
 import { VscListSelection } from 'react-icons/vsc';
-import Link from 'next/link';
 
-const lobster = Lobster({
-    subsets: ["latin"],
-    weight: "400",
-});
+
 const Header = () => {
 
     const handleBtnList = () => {
@@ -24,7 +16,7 @@ const Header = () => {
     }
     return (
         <div>
-            <div className='fixed w-[100%] bg-color1 text-color4'>
+            <div className=' w-[100%] bg-color1 text-color4 '>
                 <div className=' flex justify-center items-center animate-slideY  '>
 
 
@@ -42,7 +34,7 @@ const Header = () => {
                                 </span>
                                 <span className='xl:flex xs:hidden gap-7 '>
                                     <a href='#home' className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)]  hover:shadow-color4'>HOME</a>
-                                    <span className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SERVICE</span>
+                                    <a href='#service' className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SERVICE</a>
                                     <span className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SKILS</span>
                                     <span className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>PROJECTS</span>
                                     <span className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>CONTACT</span>
