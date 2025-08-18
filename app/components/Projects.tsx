@@ -60,7 +60,7 @@ const Project = () => {
                 </div>
 
                 <div className='mt-20'>
-                    <h1 data-aos="fade-up" className='text-2xl text-color4 font-semibold mb-10'>SwiftHub (FreeLans Project)
+                    <h1 data-aos="fade-up" className='text-2xl text-color4 font-semibold mb-10'>SwiftHub (Freelance Project)
                     </h1>
                     <a href="https://swift-hub-xi.vercel.app/" data-aos="fade-up" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-[#d62828] via-color3 to-color2 py-3 rounded-3xl px-7 mt-24 hover:shadow-md hover:shadow-color3 ">Live Demo</a>
                     <div className="flex  justify-center items-center">

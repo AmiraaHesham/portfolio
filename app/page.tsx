@@ -16,6 +16,8 @@ export default function Home() {
         <Skils />
         <hr></hr>
         <Projects />
+        <hr></hr>
+
       </main>
     </div>
   );
