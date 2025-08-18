@@ -1,11 +1,17 @@
+'use client';
 import React from 'react'
 import { BiLogoTypescript, BiLogoVisualStudio } from 'react-icons/bi'
 import { FaCss3Alt, FaGitAlt, FaGithub, FaJsSquare, FaReact } from 'react-icons/fa'
 import { ImHtmlFive } from 'react-icons/im'
-import { IoLogoFigma } from 'react-icons/io5'
 import { RiNextjsFill, RiTailwindCssFill, RiVercelFill } from 'react-icons/ri'
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Skils() {
+    useEffect(() => {
+        AOS.init({ duration: 1000 }); // مدة الحركة
+    }, []);
     return (
         <section id='skils' className='flex justify-center items-center  mt-20 mb-16  '>
             <div className=' flex flex-col  w-[80%] '>

@@ -8,7 +8,7 @@ export default function Home() {
         <section id='home' className=' flex flex-col justify-center items-center text-center mt-20 mb-16 '>
             <div className='flex  flex-col justify-center items-center md:w-[80%] xs:w-[90%]'>
 
-                <div className='flex xl:flex-row xs:flex-col-reverse items-center justify-center'>
+                <div className='flex xl:flex-row xs:flex-col-reverse gap-5 items-center justify-center'>
                     <h1 className='animate-slideX text-[100px] md:text-[120px]  xs:text-[60px] font-semibold bg-gradient-to-r from-[#d62828] via-color3 to-color2 bg-clip-text text-transparent'>FRONTEND DEVELOPER</h1>
 
                     <img src='/icon frontend.png' className='lg:w-[400px] lg:h-[400px] xs:w-[350px] xs:h-[350px] animate-slideRight'></img>

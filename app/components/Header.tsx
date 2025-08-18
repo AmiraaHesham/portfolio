@@ -47,8 +47,8 @@ export default function Header() {
                             <div className='list  hidden absolute '>
                                 <div className='flex  flex-col  bg-color1 border border-color4 w-[200px] text-2xl  gap-3 p-7 rounded-lg mt-2'>
                                     <a href='#home' className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)]  hover:shadow-color4'>HOME</a>
-                                    <span className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SERVICE</span>
-                                    <span className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SKILS</span>
+                                    <a href='#service' className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SERVICE</a>
+                                    <a href='#skils' className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SKILS</a>
                                     <span className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>PROJECTS</span>
                                     <span className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>CONTACT</span>
                                 </div>
