@@ -13,7 +13,7 @@ const Project = () => {
             <div className=' mb-10  w-[90%]' >
                 <h1 data-aos="fade-up" className='text-4xl text-color3 font-serif font-semibold'>MY PROJECTS</h1>
                 <div className='mt-16'>
-                    <h1 data-aos="fade-up" className='text-2xl text-color4 font-semibold mb-10'>Smart Attendance System (Graduation Project)  </h1>
+                    <h1 data-aos="fade-up" className='text-2xl text-color4 font-semibold mb-10 xs:w-[300px] md:w-[100%]'>Smart Attendance System (Graduation Project)  </h1>
                     <a href="https://smart-attendance-systemapp.vercel.app" data-aos="fade-up" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-[#d62828] via-color3 to-color2 py-3 rounded-3xl px-7 mt-24 hover:shadow-md hover:shadow-color3 ">Live Demo</a>
                     <div className="flex justify-center items-center">
                         <div className=' grid xl:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 my-10 gap-5 '>
@@ -35,7 +35,7 @@ const Project = () => {
                 </div>
 
                 <div className='mt-20'>
-                    <h1 data-aos="fade-up" className='text-2xl text-color4 font-semibold mb-10'>WatchHub(Saide Project)
+                    <h1 data-aos="fade-up" className='text-2xl text-color4 font-semibold mb-10 '>WatchHub(Saide Project)
                     </h1>
                     <a href="https://watch-hub-app.vercel.app/" data-aos="fade-up" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-[#d62828] via-color3 to-color2 py-3 rounded-3xl px-7 mt-24 hover:shadow-md hover:shadow-color3 ">Live Demo</a>
                     <div className="flex flex-col justify-center items-center">
