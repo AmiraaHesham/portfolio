@@ -4,6 +4,7 @@ import HomeSection from "./components/Home";
 import Service from "./components/Service";
 import Skils from "./components/Skils";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 export default function Home() {
   return (
     <div className="flex justify-center cursor-default " >
@@ -17,7 +18,7 @@ export default function Home() {
         <hr></hr>
         <Projects />
         <hr></hr>
-
+        <Contact />
       </main>
     </div>
   );

@@ -36,7 +36,7 @@ export default function Header() {
                                     <a href='#service' className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SERVICE</a>
                                     <a href='#skils' className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SKILS</a>
                                     <a href='#project' className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>PROJECTS</a>
-                                    <span className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>CONTACT</span>
+                                    <a href='#contact' className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>CONTACT</a>
                                 </span>
                                 <span className='flex text-color3 xl:text-3xl sm:text-[2xl] xs:text-xl'> <HiMiniSlash />
                                     <FaGreaterThan />
@@ -50,14 +50,14 @@ export default function Header() {
                                     <a href='#service' className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SERVICE</a>
                                     <a href='#skils' className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SKILS</a>
                                     <a href='#project' className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>PROJECTS</a>
-                                    <span className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>CONTACT</span>
+                                    <a href='#contact' className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>CONTACT</a>
                                 </div>
                             </div >
                         </div>
                     </div >
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     )
 }
 
