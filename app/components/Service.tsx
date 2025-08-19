@@ -28,8 +28,8 @@ export default function Service() {
                     <div className='flex lg:justify-end xs:justify-center'>
                         <div data-aos="fade-up" className='xl:w-[650px] xs:w-[100%] rounded-md p-5 border border-color4 shadow-md shadow-color4 '>
                             <h1 className='text-3xl text-color4  flex items-center gap-5'><SiCssdesignawards className='text-color2' />Website Design</h1>
-                            <h1 className='text-xl mt-2 text-left text-white'>I Can Design Your Website From Scraatch. I Create Modern, Simple And Easy
-                                To Use Designs That Fit Your Brand And Goals</h1>
+                            <h1 className='text-xl mt-2 text-left text-white'>I can design your website from scraatch. I create modern, simple and easy
+                                to use designs that fit your brand and goals</h1>
                         </div>
                     </div>
                     <div data-aos="fade-up" className='flex justify-center'>
@@ -38,8 +38,8 @@ export default function Service() {
                     </div>
                     <div data-aos="fade-up" className='xl:w-[650px] xs:w-[100%] rounded-md p-5 border border-color4 shadow-md shadow-color4'>
                         <h1 className='text-3xl text-color4  flex items-center gap-5'><MdOutlinePhonelink className='text-color2' />Resbonsive Design</h1>
-                        <h1 className='text-xl mt-2 text-left text-white'>I Create Resbonsive Website Based On Your Ready-Made Design
-                            Business Card Website. I Will Make It Look Great And Work Smoothly On Any Device.</h1>
+                        <h1 className='text-xl mt-2 text-left text-white'>I create resbonsive website based on your ready-made design
+                            business card Website. I will make it look great and work smoothly on any device.</h1>
                     </div>
                 </div>
             </div>

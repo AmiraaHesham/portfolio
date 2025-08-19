@@ -1,4 +1,5 @@
-import Image from "next/image";
+"use client";
+import { useState, useEffect } from "react";
 import Header from "./components/Header";
 import HomeSection from "./components/Home";
 import Service from "./components/Service";
@@ -7,6 +8,34 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 export default function Home() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const handleLoad = () => {
+      setLoading(false);
+    };
+
+    if (document.readyState === "complete") {
+      setLoading(false);
+
+    } else {
+      window.addEventListener("load", handleLoad);
+    }
+
+    return () => {
+      window.removeEventListener("load", handleLoad);
+    };
+  }, []);
+  if (loading) {
+    return (
+
+      <div className="flex flex-col gap-10 justify-center items-center h-screen bg-color1">
+        <img src="/loading icon.png" alt="" className="w-[70px] h-[70px]  border-t-transparent rounded-full animate-spin" />
+        <h1 className="md:text-5xl xs:text-4xl  font-serif font-semibold animate-pulse bg-gradient-to-r from-[#d62828] via-color3 to-color2 bg-clip-text text-transparent ">Amira Hesham</h1>
+
+      </div>
+    );
+  }
   return (
     <div className="flex justify-center cursor-default " >
       <main className="">
