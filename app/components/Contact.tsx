@@ -40,9 +40,9 @@ const Contact = () => {
         <section id='contact' className='flex justify-center items-center mt-20 mb-16'>
             <div className='flex md:flex-row xs:flex-col gap-10 justify-center w-[90%] items-center '>
                 <div className='flex flex-col justify-center items-center '>
-                    <h1 className='text-4xl font-serif font-semibold text-color3 mb-10 '>Contact Us</h1>
+                    <h1 data-aos="fade-up" className='text-4xl font-serif font-semibold text-color3 mb-10 '>Contact Us</h1>
 
-                    <form className='w-[80%]' ref={formRef} onSubmit={handleSubmit}>
+                    <form data-aos="fade-up" className='w-[80%]' ref={formRef} onSubmit={handleSubmit}>
                         <label className='text-color3 font-semibold mb-5 text-2xl font-serif'>Name</label>
                         <input type="text" name='name' placeholder="Your Name" required className='bg-color1 text-color4 outline-none shadow-sm shadow-color2 placeholder:text-color4 placeholder:opacity-50 text-xl border border-color2 p-2 rounded w-full mb-4' />
 
@@ -61,7 +61,7 @@ const Contact = () => {
                     </form>
 
                 </div>
-                <div className='  border border-color2 w-[400px] h-[400px] rounded-lg p-5 shadow-md shadow-color2'>
+                <div data-aos="fade-up" className='  border border-color2 w-[400px] h-[400px] rounded-lg p-5 shadow-md shadow-color2'>
                     <h1 className='text-4xl font-serif font-semibold text-color3 mb-10 '>Info</h1>
                     <div className='flex items-center gap-2  font-semibold my-10 text-xl text-color4'>
                         <MdOutlineMailOutline />
