@@ -5,6 +5,7 @@ import Service from "./components/Service";
 import Skils from "./components/Skils";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div className="flex justify-center cursor-default " >
@@ -19,6 +20,8 @@ export default function Home() {
         <Projects />
         <hr></hr>
         <Contact />
+        <hr></hr>
+        <Footer />
       </main>
     </div>
   );

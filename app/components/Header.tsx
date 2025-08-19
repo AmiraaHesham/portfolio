@@ -19,7 +19,7 @@ export default function Header() {
             <div className=' w-[100%] bg-color1 text-color4 '>
                 <div className=' flex justify-center items-center animate-slideY  '>
 
-                    <div className=' mt-5 cursor-pointer  md:w-[80%] xs:w-[90%]  font-semibold  drop-shadow-[0_4px_5px_rgba(255,255,255,0.6)]'>
+                    <div className=' mt-5  md:w-[80%] xs:w-[90%]  font-semibold  drop-shadow-[0_4px_5px_rgba(255,255,255,0.6)]'>
 
                         <nav className='h-[100px] flex items-center justify-between rounded-xl gap-0  bg-color1 text-color4  border  border-color4  px-5'>
 
