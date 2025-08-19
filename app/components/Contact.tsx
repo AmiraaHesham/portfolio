@@ -55,7 +55,7 @@ const Contact = () => {
 
                         {status === "success" && <p className="mt-3 text-green-600">Message sent ✅</p>}
                         {status === "error" && <p className="mt-3 text-red-600">Failed: {error}</p>}
-                        <button type="submit" className='mt-5 bg-gradient-to-r from-[#d62828] via-color3 to-color2 py-2 rounded-3xl font-serif font-semibold text-lg px-8 hover:shadow-md hover:shadow-color3'>
+                        <button type="submit" className='mt-5 text-color4 bg-gradient-to-r from-[#d62828] via-color3 to-color2 py-2 rounded-3xl font-serif font-semibold text-lg px-8 hover:shadow-md hover:shadow-color3'>
                             {status === "sending" ? "Sending..." : "Send"}
                         </button>
                     </form>
