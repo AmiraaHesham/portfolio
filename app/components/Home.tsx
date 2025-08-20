@@ -13,7 +13,7 @@ export default function Home() {
 
                     <img src='/icon frontend.png' className='lg:w-[400px] lg:h-[400px] xs:w-[350px] xs:h-[350px] animate-slideRight'></img>
                 </div>
-                <h2 className='animate-slideX text-2xl mt-4 font-serif text-color4'>Passion Creating Beautiful And Resbonsive Design</h2>
+                <h2 className='animate-slideX text-2xl mt-4 font-serif text-color4'>Passion Creating Beautiful And Responsive Design</h2>
 
                 <div className=' animate-slideX gap-7 flex mt-8 sm:text-xl xs:text-sm '>
                     <Link href="/veiwCV">  <button className='md:px-10  xs:px-5  py-3 border-4 rounded-full border-color3 shadow-xl shadow-color3 text-color3  hover:shadow-color2 hover:text-color2 hover:border-color2 font-serif font-semibold'>Veiw CV</button></Link>

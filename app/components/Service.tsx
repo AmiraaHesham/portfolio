@@ -19,7 +19,7 @@ export default function Service() {
 
                     <div data-aos="fade-up" className='xl:w-[650px] xs:w-[100%] rounded-md p-5 border border-color4 mt-10 shadow-md shadow-color4'>
                         <h1 className='text-3xl text-color4 flex items-center gap-5'><IoIosLaptop className='text-color2' />Website Devolpment</h1>
-                        <h1 className='text-xl mt-2 text-left text-white'>I create websites based on your ready-made design. Whether it’s a landing page or a business card website, I will make it look great and work smoothly on any device.</h1>
+                        <h1 className='text-xl mt-2 text-left text-color4'>I create websites based on your ready-made design. Whether it’s a landing page or a business card website, I will make it look great and work smoothly on any device.</h1>
                     </div>
                     <div data-aos="fade-up" className='flex justify-center'>
                         <hr className='w-[2px] h-20  bg-color3 '></hr>
@@ -28,7 +28,7 @@ export default function Service() {
                     <div className='flex lg:justify-end xs:justify-center'>
                         <div data-aos="fade-up" className='xl:w-[650px] xs:w-[100%] rounded-md p-5 border border-color4 shadow-md shadow-color4 '>
                             <h1 className='text-3xl text-color4  flex items-center gap-5'><SiCssdesignawards className='text-color2' />Website Design</h1>
-                            <h1 className='text-xl mt-2 text-left text-white'>I can design your website from scraatch. I create modern, simple and easy
+                            <h1 className='text-xl mt-2 text-left text-color4'>I can design your website from scraatch. I create modern, simple and easy
                                 to use designs that fit your brand and goals</h1>
                         </div>
                     </div>
@@ -37,8 +37,8 @@ export default function Service() {
 
                     </div>
                     <div data-aos="fade-up" className='xl:w-[650px] xs:w-[100%] rounded-md p-5 border border-color4 shadow-md shadow-color4'>
-                        <h1 className='text-3xl text-color4  flex items-center gap-5'><MdOutlinePhonelink className='text-color2' />Resbonsive Design</h1>
-                        <h1 className='text-xl mt-2 text-left text-white'>I create resbonsive website based on your ready-made design
+                        <h1 className='text-3xl text-color4  flex items-center gap-5'><MdOutlinePhonelink className='text-color2' />Responsive Design</h1>
+                        <h1 className='text-xl mt-2 text-left text-color4'>I create responsive website based on your ready-made design
                             business card Website. I will make it look great and work smoothly on any device.</h1>
                     </div>
                 </div>

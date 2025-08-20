@@ -17,7 +17,7 @@ export default function Skills() {
             <div className=' flex flex-col  w-[80%] '>
                 <h1 data-aos="fade-up" className='text-4xl text-color3 font-serif font-semibold'>SKILLS</h1>
                 <div className='justify-center items-center flex flex-col my-10 '>
-                    <h1 data-aos="fade-up" className='md:text-3xl xs:text-2xl text-color4 '>The skills, tools and technolo I Use
+                    <h1 data-aos="fade-up" className='md:text-4xl xs:text-3xl text-color4 '>The skills and tools I use
                     </h1>
                     <div className=' gap-5 md:w-[600px] xs:w-[340px]  flex flex-wrap justify-center items-center mt-10'>
                         <div data-aos="fade-up" className=' bg-color4 text-color1 mb-10 w-[100px] h-[100px]  flex flex-col justify-center items-center rounded-full   gap-2'>
