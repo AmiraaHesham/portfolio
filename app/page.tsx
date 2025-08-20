@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Header from "./components/Header";
 import HomeSection from "./components/Home";
 import Service from "./components/Service";
-import Skils from "./components/Skils";
+import Skils from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";

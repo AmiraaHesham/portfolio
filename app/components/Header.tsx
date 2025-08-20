@@ -34,7 +34,7 @@ export default function Header() {
                                 <span className='xl:flex xs:hidden gap-7 '>
                                     <a href='#home' className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)]  hover:shadow-color4'>HOME</a>
                                     <a href='#service' className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SERVICE</a>
-                                    <a href='#skils' className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SKILS</a>
+                                    <a href='#skils' className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SKILLS</a>
                                     <a href='#project' className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>PROJECTS</a>
                                     <a href='#contact' className='text-2xl hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>CONTACT</a>
                                 </span>
@@ -48,7 +48,7 @@ export default function Header() {
                                 <div className='flex  flex-col  bg-color1 border border-color4 w-[200px] text-2xl  gap-3 p-7 rounded-lg mt-2'>
                                     <a href='#home' className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)]  hover:shadow-color4'>HOME</a>
                                     <a href='#service' className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SERVICE</a>
-                                    <a href='#skils' className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SKILS</a>
+                                    <a href='#skils' className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>SKILLS</a>
                                     <a href='#project' className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>PROJECTS</a>
                                     <a href='#contact' className=' hover:text-color3 hover:transition-colors hover:duration-300 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.6)] hover:shadow-color4'>CONTACT</a>
                                 </div>

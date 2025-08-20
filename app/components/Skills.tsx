@@ -8,14 +8,14 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-export default function Skils() {
+export default function Skills() {
     useEffect(() => {
         AOS.init({ duration: 1000 });
     }, []);
     return (
         <section id='skils' className='flex justify-center items-center  mt-20 mb-16  '>
             <div className=' flex flex-col  w-[80%] '>
-                <h1 data-aos="fade-up" className='text-4xl text-color3 font-serif font-semibold'>SKILS</h1>
+                <h1 data-aos="fade-up" className='text-4xl text-color3 font-serif font-semibold'>SKILLS</h1>
                 <div className='justify-center items-center flex flex-col my-10 '>
                     <h1 data-aos="fade-up" className='md:text-3xl xs:text-2xl text-color4 '>The skills, tools and technolo I Use
                     </h1>
