@@ -13,7 +13,7 @@ export default function Service() {
     return (
         <section id='service' className='flex justify-center items-center  mt-20 mb-16  '>
             <div className=' flex flex-col  w-[80%] '>
-                <h1 data-aos="fade-up" className='text-4xl text-color3 font-serif font-semibold'>My SERVICE</h1>
+                <h1 data-aos="fade-up" className='text-4xl text-color3 font-serif font-semibold'>SERVICE</h1>
 
                 <div className='flex flex-col xs:justify-center xs:items-center lg:justify-normal lg:items-stretch'>
 

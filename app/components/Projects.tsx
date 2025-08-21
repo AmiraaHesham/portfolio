@@ -35,7 +35,7 @@ const Project = () => {
                 </div>
 
                 <div className='mt-20'>
-                    <h1 data-aos="fade-up" className='text-2xl text-color4 font-semibold mb-10 '>WatchHub(Saide Project)
+                    <h1 data-aos="fade-up" className='text-2xl text-color4 font-semibold mb-10 '>WatchHub (Saide Project)
                     </h1>
                     <a href="https://watch-hub-app.vercel.app/" data-aos="fade-up" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-[#d62828] via-color3 to-color2 text-color4 font-serif font-semibold py-3 rounded-3xl px-7 mt-24 hover:shadow-md hover:shadow-color3 ">Live Demo</a>
                     <div className="flex flex-col justify-center items-center">
